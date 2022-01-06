@@ -1,0 +1,124 @@
+{
+  "conversation": [
+    {
+      "type": "message",
+      "content": {
+        "message": "Hello I'm having some trouble"
+      },
+      "origin": "local",
+      "status": "sent",
+      "date": {
+        "minutes": 600,
+        "days": 0
+      }
+    },
+    {
+      "type": "message",
+      "content": {
+        "message": "What seems to be the problem today?"
+      },
+      "origin": "remote",
+      "status": "sent",
+      "date": {
+        "minutes": 550,
+        "days": 0
+      }
+    },
+    {
+      "type": "message",
+      "content": {
+        "message": "Well I can't seem to figure out how to log-in."
+      },
+      "origin": "local",
+      "status": "sent",
+      "date": {
+        "minutes": 525,
+        "days": 0
+      }
+    },
+    {
+      "type": "message",
+      "content": {
+        "message": "Let's figure out where you are having trouble."
+      },
+      "origin": "remote",
+      "status": "sent",
+      "date": {
+        "minutes": 520,
+        "days": 0
+      }
+    },
+    {
+      "type": "message",
+      "content": {
+        "message": "I am going to send you some options to choose from."
+      },
+      "origin": "remote",
+      "status": "sent",
+      "date": {
+        "minutes": 521,
+        "days": 0
+      }
+    },
+    {
+      "type": "message",
+      "content": {
+        "message": "Please select one of the below options:"
+      },
+      "origin": "remote",
+      "status": "sent",
+      "date": {
+        "minutes": 522,
+        "days": 0
+      }
+    },
+    {
+      "type": "message",
+      "content": {
+        "message": "I seem to be having some network issues at the moment..."
+      },
+      "origin": "local",
+      "status": "error",
+      "date": {
+        "minutes": 482,
+        "days": 0
+      }
+    },
+    {
+      "type": "message",
+      "content": {
+        "message": "Are you still there?"
+      },
+      "origin": "remote",
+      "status": "sent",
+      "date": {
+        "minutes": 481,
+        "days": 0
+      }
+    },
+    {
+      "type": "message",
+      "content": {
+        "message": "I can't seem to figure out where in the app I need to login? Or even if I have an account"
+      },
+      "origin": "local",
+      "status": "sent",
+      "date": {
+        "minutes": 480,
+        "days": 0
+      }
+    },
+    {
+      "type": "message",
+      "content": {
+        "message": "Alright I'd be happy to help you with that today"
+      },
+      "origin": "remote",
+      "status": "sent",
+      "date": {
+        "minutes": 476,
+        "days": 0
+      }
+    }
+  ]
+}

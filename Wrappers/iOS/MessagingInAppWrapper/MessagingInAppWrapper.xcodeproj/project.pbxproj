@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25C8C1C41313B3C788479E39 /* Pods_MessagingInAppWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFF4C2920C6823DCCBC5A14 /* Pods_MessagingInAppWrapper.framework */; };
+		F2BE45ED286B794B006AAA76 /* IAWUnityAPIBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE45EC286B794B006AAA76 /* IAWUnityAPIBridge.m */; };
+		F2BE45F0286B8196006AAA76 /* IAWUnityAPIBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BE45EB286B794B006AAA76 /* IAWUnityAPIBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2BE45F2286B81B0006AAA76 /* IAWUnityMarshalledConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BE45F1286B81B0006AAA76 /* IAWUnityMarshalledConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2BE45F4286B81FE006AAA76 /* MessagingInAppWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BE45F3286B81FE006AAA76 /* MessagingInAppWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2BE45F7286B8289006AAA76 /* NSString+UnityMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BE45F5286B8289006AAA76 /* NSString+UnityMarshaller.h */; };
+		F2BE45F8286B8289006AAA76 /* NSString+UnityMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE45F6286B8289006AAA76 /* NSString+UnityMarshaller.m */; };
+		F2BE45FA286B8384006AAA76 /* IAWUnityAPIBridge_Project.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BE45F9286B8384006AAA76 /* IAWUnityAPIBridge_Project.h */; };
+		F2BE45FC286B850F006AAA76 /* IAWDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BE45FB286B850D006AAA76 /* IAWDefines.h */; };
+		F2BE4601286B86DF006AAA76 /* NSDictionary+SMIConversationEntryUnity.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BE45FF286B86DF006AAA76 /* NSDictionary+SMIConversationEntryUnity.h */; };
+		F2BE4602286B86DF006AAA76 /* NSDictionary+SMIConversationEntryUnity.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE4600286B86DF006AAA76 /* NSDictionary+SMIConversationEntryUnity.m */; };
+		F2BE4605286B8796006AAA76 /* NSString+SMIConversationEntryUnity.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BE4603286B8796006AAA76 /* NSString+SMIConversationEntryUnity.h */; };
+		F2BE4606286B8796006AAA76 /* NSString+SMIConversationEntryUnity.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE4604286B8796006AAA76 /* NSString+SMIConversationEntryUnity.m */; };
+		F2BE460C286B8FD1006AAA76 /* NSDictionary+SMIParticipantUnity.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BE460A286B8FD1006AAA76 /* NSDictionary+SMIParticipantUnity.h */; };
+		F2BE460D286B8FD1006AAA76 /* NSDictionary+SMIParticipantUnity.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE460B286B8FD1006AAA76 /* NSDictionary+SMIParticipantUnity.m */; };
+		F2BE4610286B90AB006AAA76 /* NSDictionary+SMITextMessageUnity.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BE460E286B90AB006AAA76 /* NSDictionary+SMITextMessageUnity.h */; };
+		F2BE4611286B90AB006AAA76 /* NSDictionary+SMITextMessageUnity.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE460F286B90AB006AAA76 /* NSDictionary+SMITextMessageUnity.m */; };
+		F2BE4614286B9153006AAA76 /* NSDate+IAWEpoch.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BE4612286B9153006AAA76 /* NSDate+IAWEpoch.h */; };
+		F2BE4615286B9153006AAA76 /* NSDate+IAWEpoch.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE4613286B9153006AAA76 /* NSDate+IAWEpoch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F2BE45DA286B77C4006AAA76 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0EA76B16CE52106835A00076 /* Pods-MessagingInAppWrapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagingInAppWrapper.debug.xcconfig"; path = "Target Support Files/Pods-MessagingInAppWrapper/Pods-MessagingInAppWrapper.debug.xcconfig"; sourceTree = "<group>"; };
+		7AFF4C2920C6823DCCBC5A14 /* Pods_MessagingInAppWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessagingInAppWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BE45DC286B77C4006AAA76 /* libMessagingInAppWrapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMessagingInAppWrapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BE45EB286B794B006AAA76 /* IAWUnityAPIBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAWUnityAPIBridge.h; sourceTree = "<group>"; };
+		F2BE45EC286B794B006AAA76 /* IAWUnityAPIBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAWUnityAPIBridge.m; sourceTree = "<group>"; };
+		F2BE45F1286B81B0006AAA76 /* IAWUnityMarshalledConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAWUnityMarshalledConfig.h; sourceTree = "<group>"; };
+		F2BE45F3286B81FE006AAA76 /* MessagingInAppWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagingInAppWrapper.h; sourceTree = "<group>"; };
+		F2BE45F5286B8289006AAA76 /* NSString+UnityMarshaller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+UnityMarshaller.h"; sourceTree = "<group>"; };
+		F2BE45F6286B8289006AAA76 /* NSString+UnityMarshaller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+UnityMarshaller.m"; sourceTree = "<group>"; };
+		F2BE45F9286B8384006AAA76 /* IAWUnityAPIBridge_Project.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAWUnityAPIBridge_Project.h; sourceTree = "<group>"; };
+		F2BE45FB286B850D006AAA76 /* IAWDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAWDefines.h; sourceTree = "<group>"; };
+		F2BE45FF286B86DF006AAA76 /* NSDictionary+SMIConversationEntryUnity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SMIConversationEntryUnity.h"; sourceTree = "<group>"; };
+		F2BE4600286B86DF006AAA76 /* NSDictionary+SMIConversationEntryUnity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SMIConversationEntryUnity.m"; sourceTree = "<group>"; };
+		F2BE4603286B8796006AAA76 /* NSString+SMIConversationEntryUnity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SMIConversationEntryUnity.h"; sourceTree = "<group>"; };
+		F2BE4604286B8796006AAA76 /* NSString+SMIConversationEntryUnity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SMIConversationEntryUnity.m"; sourceTree = "<group>"; };
+		F2BE460A286B8FD1006AAA76 /* NSDictionary+SMIParticipantUnity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SMIParticipantUnity.h"; sourceTree = "<group>"; };
+		F2BE460B286B8FD1006AAA76 /* NSDictionary+SMIParticipantUnity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SMIParticipantUnity.m"; sourceTree = "<group>"; };
+		F2BE460E286B90AB006AAA76 /* NSDictionary+SMITextMessageUnity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SMITextMessageUnity.h"; sourceTree = "<group>"; };
+		F2BE460F286B90AB006AAA76 /* NSDictionary+SMITextMessageUnity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SMITextMessageUnity.m"; sourceTree = "<group>"; };
+		F2BE4612286B9153006AAA76 /* NSDate+IAWEpoch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+IAWEpoch.h"; sourceTree = "<group>"; };
+		F2BE4613286B9153006AAA76 /* NSDate+IAWEpoch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+IAWEpoch.m"; sourceTree = "<group>"; };
+		F97941320782A5B859DF1035 /* Pods-MessagingInAppWrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagingInAppWrapper.release.xcconfig"; path = "Target Support Files/Pods-MessagingInAppWrapper/Pods-MessagingInAppWrapper.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2BE45D9286B77C4006AAA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C8C1C41313B3C788479E39 /* Pods_MessagingInAppWrapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7A4EE8BDF2B0F013F79A03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EA76B16CE52106835A00076 /* Pods-MessagingInAppWrapper.debug.xcconfig */,
+				F97941320782A5B859DF1035 /* Pods-MessagingInAppWrapper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D474ECEB47CDC5FF353A5651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AFF4C2920C6823DCCBC5A14 /* Pods_MessagingInAppWrapper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2BE45D3286B77C4006AAA76 = {
+			isa = PBXGroup;
+			children = (
+				F2BE45DE286B77C4006AAA76 /* MessagingInAppWrapper */,
+				F2BE45DD286B77C4006AAA76 /* Products */,
+				3F7A4EE8BDF2B0F013F79A03 /* Pods */,
+				D474ECEB47CDC5FF353A5651 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2BE45DD286B77C4006AAA76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2BE45DC286B77C4006AAA76 /* libMessagingInAppWrapper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2BE45DE286B77C4006AAA76 /* MessagingInAppWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				F2BE45E8286B7801006AAA76 /* Classes */,
+			);
+			path = MessagingInAppWrapper;
+			sourceTree = "<group>";
+		};
+		F2BE45E8286B7801006AAA76 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F2BE45FE286B8614006AAA76 /* ConversationEntry */,
+				F2BE45FD286B8603006AAA76 /* UnityBridge */,
+				F2BE45FB286B850D006AAA76 /* IAWDefines.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F2BE45FD286B8603006AAA76 /* UnityBridge */ = {
+			isa = PBXGroup;
+			children = (
+				F2BE45EB286B794B006AAA76 /* IAWUnityAPIBridge.h */,
+				F2BE45F9286B8384006AAA76 /* IAWUnityAPIBridge_Project.h */,
+				F2BE45EC286B794B006AAA76 /* IAWUnityAPIBridge.m */,
+				F2BE45F1286B81B0006AAA76 /* IAWUnityMarshalledConfig.h */,
+				F2BE45F3286B81FE006AAA76 /* MessagingInAppWrapper.h */,
+				F2BE45F5286B8289006AAA76 /* NSString+UnityMarshaller.h */,
+				F2BE45F6286B8289006AAA76 /* NSString+UnityMarshaller.m */,
+				F2BE4612286B9153006AAA76 /* NSDate+IAWEpoch.h */,
+				F2BE4613286B9153006AAA76 /* NSDate+IAWEpoch.m */,
+			);
+			path = UnityBridge;
+			sourceTree = "<group>";
+		};
+		F2BE45FE286B8614006AAA76 /* ConversationEntry */ = {
+			isa = PBXGroup;
+			children = (
+				F2BE45FF286B86DF006AAA76 /* NSDictionary+SMIConversationEntryUnity.h */,
+				F2BE4600286B86DF006AAA76 /* NSDictionary+SMIConversationEntryUnity.m */,
+				F2BE4603286B8796006AAA76 /* NSString+SMIConversationEntryUnity.h */,
+				F2BE4604286B8796006AAA76 /* NSString+SMIConversationEntryUnity.m */,
+				F2BE460A286B8FD1006AAA76 /* NSDictionary+SMIParticipantUnity.h */,
+				F2BE460B286B8FD1006AAA76 /* NSDictionary+SMIParticipantUnity.m */,
+				F2BE460E286B90AB006AAA76 /* NSDictionary+SMITextMessageUnity.h */,
+				F2BE460F286B90AB006AAA76 /* NSDictionary+SMITextMessageUnity.m */,
+			);
+			path = ConversationEntry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F2BE45EF286B8190006AAA76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BE45F0286B8196006AAA76 /* IAWUnityAPIBridge.h in Headers */,
+				F2BE460C286B8FD1006AAA76 /* NSDictionary+SMIParticipantUnity.h in Headers */,
+				F2BE45FC286B850F006AAA76 /* IAWDefines.h in Headers */,
+				F2BE45F4286B81FE006AAA76 /* MessagingInAppWrapper.h in Headers */,
+				F2BE45F2286B81B0006AAA76 /* IAWUnityMarshalledConfig.h in Headers */,
+				F2BE4605286B8796006AAA76 /* NSString+SMIConversationEntryUnity.h in Headers */,
+				F2BE4610286B90AB006AAA76 /* NSDictionary+SMITextMessageUnity.h in Headers */,
+				F2BE45F7286B8289006AAA76 /* NSString+UnityMarshaller.h in Headers */,
+				F2BE4601286B86DF006AAA76 /* NSDictionary+SMIConversationEntryUnity.h in Headers */,
+				F2BE45FA286B8384006AAA76 /* IAWUnityAPIBridge_Project.h in Headers */,
+				F2BE4614286B9153006AAA76 /* NSDate+IAWEpoch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F2BE45DB286B77C4006AAA76 /* MessagingInAppWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BE45E5286B77C4006AAA76 /* Build configuration list for PBXNativeTarget "MessagingInAppWrapper" */;
+			buildPhases = (
+				D66A86CD88B7581E092CF76B /* [CP] Check Pods Manifest.lock */,
+				F2BE45EF286B8190006AAA76 /* Headers */,
+				F2BE45D8286B77C4006AAA76 /* Sources */,
+				F2BE45D9286B77C4006AAA76 /* Frameworks */,
+				F2BE45DA286B77C4006AAA76 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessagingInAppWrapper;
+			productName = MessagingInAppWrapper;
+			productReference = F2BE45DC286B77C4006AAA76 /* libMessagingInAppWrapper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2BE45D4286B77C4006AAA76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F2BE45DB286B77C4006AAA76 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = F2BE45D7286B77C4006AAA76 /* Build configuration list for PBXProject "MessagingInAppWrapper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2BE45D3286B77C4006AAA76;
+			productRefGroup = F2BE45DD286B77C4006AAA76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2BE45DB286B77C4006AAA76 /* MessagingInAppWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D66A86CD88B7581E092CF76B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MessagingInAppWrapper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2BE45D8286B77C4006AAA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BE45F8286B8289006AAA76 /* NSString+UnityMarshaller.m in Sources */,
+				F2BE4606286B8796006AAA76 /* NSString+SMIConversationEntryUnity.m in Sources */,
+				F2BE460D286B8FD1006AAA76 /* NSDictionary+SMIParticipantUnity.m in Sources */,
+				F2BE4611286B90AB006AAA76 /* NSDictionary+SMITextMessageUnity.m in Sources */,
+				F2BE4602286B86DF006AAA76 /* NSDictionary+SMIConversationEntryUnity.m in Sources */,
+				F2BE4615286B9153006AAA76 /* NSDate+IAWEpoch.m in Sources */,
+				F2BE45ED286B794B006AAA76 /* IAWUnityAPIBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F2BE45E3286B77C4006AAA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2BE45E4286B77C4006AAA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2BE45E6286B77C4006AAA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA76B16CE52106835A00076 /* Pods-MessagingInAppWrapper.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2BE45E7286B77C4006AAA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97941320782A5B859DF1035 /* Pods-MessagingInAppWrapper.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2BE45D7286B77C4006AAA76 /* Build configuration list for PBXProject "MessagingInAppWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BE45E3286B77C4006AAA76 /* Debug */,
+				F2BE45E4286B77C4006AAA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2BE45E5286B77C4006AAA76 /* Build configuration list for PBXNativeTarget "MessagingInAppWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BE45E6286B77C4006AAA76 /* Debug */,
+				F2BE45E7286B77C4006AAA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2BE45D4286B77C4006AAA76 /* Project object */;
+}

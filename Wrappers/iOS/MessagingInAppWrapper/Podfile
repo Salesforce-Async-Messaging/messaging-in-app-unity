@@ -1,0 +1,8 @@
+use_frameworks!
+platform :ios, '14.0'
+
+project 'MessagingInAppWrapper.xcodeproj'
+
+target 'MessagingInAppWrapper' do
+  pod 'Messaging-InApp-Core', '~> 1.0'
+end

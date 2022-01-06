@@ -1,0 +1,24 @@
+<dependencies>
+  <androidPackages>
+
+    <repositories>
+      <repository>https://repo.maven.apache.org/maven2</repository>
+    </repositories>
+    
+    <androidPackage spec="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10" />
+
+    <androidPackage spec="com.salesforce.service:messaging-inapp-core:1.0.0">
+        <repositories>
+            <repository>https://s3.amazonaws.com/inapp.salesforce.com/public/android</repository>
+        </repositories>
+    </androidPackage>
+
+    <androidPackage spec="com.salesforce.unity:messaging-inapp-wrapper:1.0.0" >
+        <repositories>
+            <repository>file://~/.m2/repository</repository>
+        </repositories>
+    </androidPackage>
+
+
+  </androidPackages>
+</dependencies>

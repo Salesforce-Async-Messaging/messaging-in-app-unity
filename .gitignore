@@ -47,6 +47,12 @@ ExportedObj/
 *.opendb
 *.VC.db
 *.DS_*
+*.xcframework/
+*.xcframework
+*.xcframework.meta
+*.framework/
+*.framework
+*.framework.meta
 
 # Unity3D generated meta files
 *.pidb.meta

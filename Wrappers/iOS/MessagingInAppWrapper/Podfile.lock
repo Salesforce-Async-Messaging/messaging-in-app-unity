@@ -1,0 +1,16 @@
+PODS:
+  - Messaging-InApp-Core (1.0.0)
+
+DEPENDENCIES:
+  - Messaging-InApp-Core (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - Messaging-InApp-Core
+
+SPEC CHECKSUMS:
+  Messaging-InApp-Core: b28a8d4590ad18f9d2599e22bfab794754fa86dc
+
+PODFILE CHECKSUM: f63eed7f88fb8053a0cb1be1e2eb5d13a74fcf23
+
+COCOAPODS: 1.11.3
